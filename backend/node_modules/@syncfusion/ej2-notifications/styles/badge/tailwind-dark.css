@@ -1,0 +1,287 @@
+.e-badge {
+  background: rgb(27.323255814, 36.1372093023, 48.476744186);
+  border-color: transparent;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 0 0 2px transparent;
+          box-shadow: 0 0 0 2px transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #d1d5db;
+  display: inline-block;
+  font-family: "Inter";
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 4px;
+  height: 18px;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  text-indent: 0;
+  vertical-align: middle;
+}
+.e-badge:hover {
+  text-decoration: none;
+}
+.e-badge.e-badge-pill {
+  border-radius: 10px;
+  padding: 4px 10px 4px 10px;
+}
+.e-badge.e-badge-ghost {
+  line-height: 1;
+  padding: 3px 10px 3px 10px;
+}
+.e-badge.e-badge-notification {
+  border-radius: 10px;
+  height: 18px;
+  line-height: 1;
+  min-width: 32px;
+  padding: 4px 10px 4px 10px;
+  width: auto;
+  font-size: 10px;
+  position: absolute;
+  top: -10px;
+  left: 100%;
+}
+.e-badge.e-badge-notification.e-badge-ghost {
+  line-height: 1;
+}
+.e-badge.e-badge-circle {
+  border-radius: 10px;
+  height: 18px;
+  line-height: 1;
+  min-width: 0;
+  padding: 4px 3px 4px 3px;
+  width: 18px;
+}
+.e-badge.e-badge-circle.e-badge-ghost {
+  line-height: 1;
+  padding: 3px;
+}
+.e-badge.e-badge-overlap {
+  position: absolute;
+  top: -10px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.e-badge.e-badge-dot {
+  border-radius: 10px;
+  height: 10px;
+  line-height: 1;
+  min-width: 0;
+  padding: 0;
+  width: 10px;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  margin: 0;
+  overflow: visible;
+  position: absolute;
+  top: -3px;
+  left: 100%;
+}
+.e-badge.e-badge-bottom.e-badge-dot {
+  position: absolute;
+  top: auto;
+  bottom: 3px;
+}
+.e-badge.e-badge-bottom.e-badge-notification {
+  position: absolute;
+  top: auto;
+  bottom: -3px;
+}
+button .e-badge {
+  line-height: 1;
+  position: relative;
+  top: -2px;
+}
+button .e-badge.e-badge-circle {
+  height: 18px;
+  line-height: 1;
+  width: 18px;
+}
+button .e-badge.e-badge-circle.e-badge-ghost {
+  line-height: 1;
+}
+
+.e-badge.e-badge-primary:not(.e-badge-ghost):not([href]), .e-badge.e-badge-primary[href]:not(.e-badge-ghost) {
+  background-color: #22d3ee;
+  color: #000;
+}
+.e-badge.e-badge-secondary:not(.e-badge-ghost):not([href]), .e-badge.e-badge-secondary[href]:not(.e-badge-ghost) {
+  background-color: rgb(27.323255814, 36.1372093023, 48.476744186);
+  color: #d1d5db;
+}
+.e-badge.e-badge-success:not(.e-badge-ghost):not([href]), .e-badge.e-badge-success[href]:not(.e-badge-ghost) {
+  background-color: #dcfce7;
+  color: #22c55e;
+}
+.e-badge.e-badge-danger:not(.e-badge-ghost):not([href]), .e-badge.e-badge-danger[href]:not(.e-badge-ghost) {
+  background-color: #fee2e2;
+  color: #f87171;
+}
+.e-badge.e-badge-warning:not(.e-badge-ghost):not([href]), .e-badge.e-badge-warning[href]:not(.e-badge-ghost) {
+  background-color: #ffedd5;
+  color: #f97316;
+}
+.e-badge.e-badge-info:not(.e-badge-ghost):not([href]), .e-badge.e-badge-info[href]:not(.e-badge-ghost) {
+  background-color: #e0f2fe;
+  color: #38bdf8;
+}
+.e-badge.e-badge-light:not(.e-badge-ghost):not([href]), .e-badge.e-badge-light[href]:not(.e-badge-ghost) {
+  background-color: #374151;
+  color: #d1d5db;
+}
+.e-badge.e-badge-dark:not(.e-badge-ghost):not([href]), .e-badge.e-badge-dark[href]:not(.e-badge-ghost) {
+  background-color: #9ca3af;
+  color: #374151;
+}
+.e-badge.e-badge-primary[href]:not(.e-badge-ghost):hover {
+  background-color: rgb(15.7857142857, 180.1428571429, 205.2142857143);
+}
+.e-badge.e-badge-secondary[href]:not(.e-badge-ghost):hover {
+  background-color: rgb(8.9395348837, 11.823255814, 15.8604651163);
+}
+.e-badge.e-badge-success[href]:not(.e-badge-ghost):hover {
+  background-color: rgb(173.0263157895, 247.9736842105, 198.7894736842);
+}
+.e-badge.e-badge-danger[href]:not(.e-badge-ghost):hover {
+  background-color: rgb(252.3, 176.7, 176.7);
+}
+.e-badge.e-badge-warning[href]:not(.e-badge-ghost):hover {
+  background-color: rgb(255, 215.1428571429, 162);
+}
+.e-badge.e-badge-info[href]:not(.e-badge-ghost):hover {
+  background-color: rgb(174.59375, 221.28125, 252.40625);
+}
+.e-badge.e-badge-light[href]:not(.e-badge-ghost):hover {
+  background-color: rgb(34.375, 40.625, 50.625);
+}
+.e-badge.e-badge-dark[href]:not(.e-badge-ghost):hover {
+  background-color: rgb(127.7932960894, 136.7877094972, 152.2067039106);
+}
+.e-badge.e-badge-primary[href].e-badge-ghost:hover {
+  border-color: rgb(13.9642857143, 159.3571428571, 181.5357142857);
+  color: rgb(13.9642857143, 159.3571428571, 181.5357142857);
+}
+.e-badge.e-badge-secondary[href].e-badge-ghost:hover {
+  border-color: hsl(215, 27.9069767442%, -0.137254902%);
+  color: hsl(215, 27.9069767442%, -0.137254902%);
+}
+.e-badge.e-badge-success[href].e-badge-ghost:hover {
+  border-color: rgb(149.5394736842, 245.9605263158, 182.6842105263);
+  color: rgb(149.5394736842, 245.9605263158, 182.6842105263);
+}
+.e-badge.e-badge-danger[href].e-badge-ghost:hover {
+  border-color: rgb(251.45, 152.05, 152.05);
+  color: rgb(251.45, 152.05, 152.05);
+}
+.e-badge.e-badge-warning[href].e-badge-ghost:hover {
+  border-color: rgb(255, 204.2142857143, 136.5);
+  color: rgb(255, 204.2142857143, 136.5);
+}
+.e-badge.e-badge-info[href].e-badge-ghost:hover {
+  border-color: rgb(149.890625, 210.921875, 251.609375);
+  color: rgb(149.890625, 210.921875, 251.609375);
+}
+.e-badge.e-badge-light[href].e-badge-ghost:hover {
+  border-color: rgb(24.0625, 28.4375, 35.4375);
+  color: rgb(24.0625, 28.4375, 35.4375);
+}
+.e-badge.e-badge-dark[href].e-badge-ghost:hover {
+  border-color: rgb(113.7430167598, 123.6955307263, 140.7569832402);
+  color: rgb(113.7430167598, 123.6955307263, 140.7569832402);
+}
+.e-badge.e-badge-ghost.e-badge-primary {
+  background-color: transparent;
+  border: 1px solid #22d3ee;
+  color: #22d3ee;
+}
+.e-badge.e-badge-ghost.e-badge-secondary {
+  background-color: transparent;
+  border: 1px solid #d1d5db;
+  color: #d1d5db;
+  border: 1px solid rgb(27.323255814, 36.1372093023, 48.476744186);
+  color: rgb(27.323255814, 36.1372093023, 48.476744186);
+}
+.e-badge.e-badge-ghost.e-badge-success {
+  background-color: transparent;
+  border: 1px solid #22c55e;
+  color: #22c55e;
+  border: 1px solid #dcfce7;
+  color: #dcfce7;
+}
+.e-badge.e-badge-ghost.e-badge-danger {
+  background-color: transparent;
+  border: 1px solid #f87171;
+  color: #f87171;
+  border: 1px solid #fee2e2;
+  color: #fee2e2;
+}
+.e-badge.e-badge-ghost.e-badge-warning {
+  background-color: transparent;
+  border: 1px solid #f97316;
+  color: #f97316;
+}
+.e-badge.e-badge-ghost.e-badge-info {
+  background-color: transparent;
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+}
+.e-badge.e-badge-ghost.e-badge-light {
+  background-color: transparent;
+  border: 1px solid #d1d5db;
+  color: #d1d5db;
+  border: 1px solid #374151;
+  color: #374151;
+}
+.e-badge.e-badge-ghost.e-badge-dark {
+  background-color: transparent;
+  border: 1px solid #9ca3af;
+  color: #9ca3af;
+}
+
+.e-bigger .e-badge,
+.e-badge.e-bigger {
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 4px;
+  height: 20px;
+  line-height: 18px;
+  padding: 1px 6px;
+}
+.e-bigger .e-badge.e-badge-pill,
+.e-badge.e-bigger.e-badge-pill {
+  border-radius: 10px;
+  padding: 1px 10px;
+}
+.e-bigger .e-badge.e-badge-ghost,
+.e-badge.e-bigger.e-badge-ghost {
+  padding: 0 10px;
+}
+.e-bigger .e-badge.e-badge-ghost.e-badge-circle,
+.e-badge.e-bigger.e-badge-ghost.e-badge-circle {
+  padding: 3px;
+}
+.e-bigger .e-badge.e-badge-ghost.e-badge-notification,
+.e-badge.e-bigger.e-badge-ghost.e-badge-notification {
+  padding: 3px 10px;
+}
+.e-bigger .e-badge.e-badge-notification,
+.e-badge.e-bigger.e-badge-notification {
+  border-radius: 10px;
+  min-width: 34px;
+  padding: 1px 10px;
+}
+.e-bigger .e-badge.e-badge-circle,
+.e-badge.e-bigger.e-badge-circle {
+  border-radius: 10px;
+  min-width: 0;
+  padding: 1px 3px;
+  width: 20px;
+}
+.e-bigger .e-badge.e-badge-dot,
+.e-badge.e-bigger.e-badge-dot {
+  border-radius: 10px;
+  height: 12px;
+  width: 12px;
+}
